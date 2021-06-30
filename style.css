@@ -1,0 +1,68 @@
+.titles {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.titles h1 {
+  padding-left: 20px;
+}
+
+.susan-container {
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  /* padding: 10px 0; */
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.susan-button {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  padding: 20px 120px 20px 100px;
+  border-right: 1px solid black;
+  color: rgb(0, 0, 114);
+}
+
+.susan-info {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+}
+
+.susan-info h1 {
+  margin: 0;
+}
+
+.susan-info .title {
+    padding: 20px 40px 20px 40px;
+    border-right: 1px solid black;
+}
+
+.susan-info .job {
+  padding-left: 50px;
+  padding: 20px 40px 20px 25px;
+  border-right: 1px solid black;
+}
+
+.susan-info .text {
+    padding: 20px 40px 20px 25px;
+    border-right: 1px solid black;
+}
+
+.susan-info .age {
+    padding: 20px 40px 20px 40px;
+    border-right: 1px solid black;
+}
+
+.susan-info .address {
+    padding: 20px 0px 20px 50px;
+}
